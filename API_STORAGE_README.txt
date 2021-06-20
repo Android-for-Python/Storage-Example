@@ -3,7 +3,7 @@
     # 
     # Shared Storage is a database, NOT a Linux file system.
     # See notes below about implementation differences for devices using
-    # api <29
+    # api <29 (Android 9 or less)
     #
     # The database is organized in Root Directories
     #  'Music'         
@@ -35,7 +35,7 @@
     # Two additional methods enable interoperability with the Android
     # 'android.net.Uri' class.
     #
-    # ######## Android Version Transition, Read me, Really ###############
+    # ######## Android 9 and Less Differences, Read me, Really #########
     #
     # The api above is consistent from device api = 21 to at least api = 30.
     # However the internal implementation is different between devices with
@@ -50,6 +50,11 @@
     #
     # On newer devices the datebase key for file path is RELATIVE_PATH
     # on older devices it is DATA which is now depreciated.
+    #
+    # ***There may be other differences between the old and new Android
+    # database implementations***
+    #
+    # ######## Android 9->10 Version Transition, Read me, Really ##########
     #
     # The two implementations require special handling of the user's
     # data when the user moves files to a platorm with api >= 29 from one with

@@ -6,7 +6,7 @@ from jnius import autoclass
 Intent = autoclass('android.content.Intent')
 JString = autoclass('java.lang.String')
 
-# Source https://github.com/RobertFlatt/Android-for-Python/storage
+# Source https://github.com/Android-for-Python/Storage-Example
 # Requires
 # READ_EXTERNAL_STORAGE
 

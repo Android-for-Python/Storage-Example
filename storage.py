@@ -23,7 +23,7 @@ Uri = autoclass('android.net.Uri')
 ContentUris = autoclass('android.content.ContentUris')
 StreamCopy = autoclass('org.kivy.storage.StreamCopy')
 
-# Source https://github.com/RobertFlatt/Android-for-Python/storage
+# Source https://github.com/Android-for-Python/Storage-Example
 
 #########################
 # assumes build api>=29
