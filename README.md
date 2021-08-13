@@ -14,3 +14,17 @@ Use of the Android file picker to copy files from other app's shared storage is 
 
 The buildozer options are documented in [BUILDOZER_README.txt](https://github.com/Android-for-Python/Storage-Example/blob/main/BUILDOZER_README.txt)
 
+**Installation / Getting started**
+
+Prepare a virtual environment. If using pyenv:
+
+```
+pyenv virtualenv 3.8.9 a4p
+pyenv activate a4p
+pip install -r requirements.txt
+```
+
+Build / install to android device
+```
+buildozer android debug deploy run logcat
+```
