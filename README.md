@@ -2,6 +2,10 @@
 
 *Shared storage*
 
+### **Depreciated, use [shared_storage_example](https://github.com/Android-for-Python/shared_storage_example).**
+
+
+
 **This example is experimental**
 
 **On devices running Android 10 and higher shared storage is a database not a Linux file system**. Private storage is a Linux file system. [storage.py](https://github.com/Android-for-Python/Storage-Example/blob/main/storage.py) implements an api for database access of this app's public storage.
